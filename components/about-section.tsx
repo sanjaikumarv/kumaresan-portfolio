@@ -68,7 +68,7 @@ export function AboutSection() {
                   </p>
                 </div>
 
-                <div ref={detailsRef} className="space-x-4 mt-2 flex ">
+                <div ref={detailsRef} className="space-x-4 mt-2 md:flex">
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-primary rounded-full pulse-glow"></div>
                     <span className="ml-2 text-sm font-medium"> Phone: 6382323527</span>
