@@ -18,11 +18,20 @@ const projects = [
     image: '/project/fizic.jpeg'
   },
   {
+    title: "Covenant Health Insurance – Web Application (Freelance)",
+    description:
+      "Description: Healthcare insurance platform with streamlined navigation, responsive layouts, and accessible design tailored for patient and provider needs.",
+    role: "User Interface & User Experience",
+    technologies: ["Figma", "Wireframing", "Prototyping", "Usability Testing"],
+    category: "Mobile App Design",
+    image: ''
+  },
+  {
     title: "New Trend Website",
     description:
       "Modern car buying platform with intuitive browsing, advanced filtering, and a seamless user experience.",
     role: "User Interface & User Experience",
-    technologies: ["Figma"],
+    technologies: ["Figma", "Wireframing", "Prototyping", "Usability Testing"],
     category: "Web Design",
     image: '/project/trent.jpeg'
   },

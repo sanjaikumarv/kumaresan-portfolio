@@ -38,7 +38,7 @@ export function HeroSection() {
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
-          <div className="text-left">
+          <div className="text-left mt-16">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
               <span className="text-foreground">Hi, I'm </span>
               <span className="gradient-text">Kumaresan</span>
@@ -74,6 +74,7 @@ export function HeroSection() {
 
             {/* Download Resume Button */}
             <Button
+              onClick={() => window.location.href = "https://drive.google.com/file/d/1Ug3-Gd0ZfISc2MQ9na0I8_Bk5mpjTZQS/view?usp=sharing"}
               size="lg"
               className="group bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90"
             >
@@ -117,6 +118,6 @@ export function HeroSection() {
           </Button>
         </div>
       </div>
-    </section>
+    </section >
   )
 }
