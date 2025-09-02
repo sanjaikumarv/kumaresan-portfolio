@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react"
 import { Button } from "@/components/ui/button"
 import { ArrowDown, Download, Mail, Phone, Github, Linkedin } from "lucide-react"
+import Link from "next/link"
 
 export function HeroSection() {
   const heroRef = useRef<HTMLElement>(null)
@@ -35,7 +36,7 @@ export function HeroSection() {
 
   return (
     <section ref={heroRef} className="min-h-screen flex items-center justify-center relative overflow-hidden">
-      <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="container max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="text-left mt-16">
@@ -49,36 +50,38 @@ export function HeroSection() {
             </p>
 
             <p className="text-lg text-muted-foreground mb-8 max-w-[490px] leading-relaxed">
-              With 1+ years of programming experience and 3+ years of professional work, I'm passionate about exploring new technologies and collaborating with enthusiastic, innovative people. Let's build and create together!
+              Creative UI/UX Designer & UI Developer with 1 year of experience in building user-friendly interfaces
+              and responsive web solutions. Skilled in design thinking, prototyping, and front-end development to
+              deliver engaging digital experiences.
             </p>
 
             {/* Social Links */}
             <div className="flex flex-wrap gap-4 mb-8">
-              <Button variant="outline" size="sm" className="bg-transparent hover:bg-primary/10">
-                <Github className="mr-2 h-4 w-4" />
+              <Link href="https://github.com/KumaresanRaj" target="_blank" className="inline-flex rounded-md px-2 py-1 border hover:text-black bg-gradient-to-r  hover:bg-gradient-to-r  hover:from-primary/90 hover:to-accent/90">
+                <Github className="mr-2 mt-1 h-4 w-4" />
                 GitHub
-              </Button>
-              <Button variant="outline" size="sm" className="bg-transparent hover:bg-primary/10">
-                <Linkedin className="mr-2 h-4 w-4" />
+              </Link>
+              <Link href="https://www.linkedin.com/in/kumaresan-t" target="_blank" className="inline-flex rounded-md px-2 py-1 border hover:text-black bg-gradient-to-r  hover:bg-gradient-to-r  hover:from-primary/90 hover:to-accent/90">
+                <Linkedin className="mr-2 mt-1 h-4 w-4" />
                 LinkedIn
-              </Button>
-              <Button variant="outline" size="sm" className="bg-transparent hover:bg-primary/10">
-                <Mail className="mr-2 h-4 w-4" />
+              </Link>
+              <Link href="mailto:kumaresanraj388@gmail.com" target="_blank" className="inline-flex rounded-md px-2 py-1 border hover:text-black bg-gradient-to-r  hover:bg-gradient-to-r  hover:from-primary/90 hover:to-accent/90">
+                <Mail className="mr-2 mt-1 h-4 w-4" />
                 Email
-              </Button>
-              <Button variant="outline" size="sm" className="bg-transparent hover:bg-primary/10">
-                <Phone className="mr-2 h-4 w-4" />
+              </Link>
+              <Link href="tel:+916382323527" target="_blank" className="inline-flex rounded-md px-2 py-1 border hover:text-black bg-gradient-to-r  hover:bg-gradient-to-r  hover:from-primary/90 hover:to-accent/90">
+                <Phone className="mr-2 mt-1 h-4 w-4" />
                 Call
-              </Button>
+              </Link>
             </div>
 
             {/* Download Resume Button */}
             <Button
               onClick={() => window.location.href = "https://drive.google.com/file/d/1Ug3-Gd0ZfISc2MQ9na0I8_Bk5mpjTZQS/view?usp=sharing"}
               size="lg"
-              className="group bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90"
+              className="group bg-gradient-to-r hover:cursor-pointer from-primary to-accent hover:from-primary/90 hover:to-accent/90"
             >
-              <Download className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform" />
+              <Download className="mr-2 hover:cursor-pointer h-4 w-4 group-hover:scale-110 transition-transform" />
               Download Resume
             </Button>
           </div>

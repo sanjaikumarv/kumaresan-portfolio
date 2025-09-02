@@ -24,12 +24,9 @@ export function ContactSection() {
     const { name, value } = e.target
     setFormData((prev) => ({ ...prev, [name]: value }))
   }
-  console.log("formData", formData)
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    console.log("Form submitted:", formData)
     const res = await sendEmail(formData)
-    console.log("res", res)
     alert("Thank you for your message! I'll get back to you soon.")
     setFormData({
       name: "",

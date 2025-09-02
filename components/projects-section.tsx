@@ -9,6 +9,15 @@ import Image from "next/image"
 
 const projects = [
   {
+    title: "Covenant Health Insurance – Web Application (Freelance)",
+    description:
+      "Description: Healthcare insurance platform with streamlined navigation, responsive layouts, and accessible design tailored for patient and provider needs.",
+    role: "User Interface & User Experience",
+    technologies: ["Figma", "Wireframing", "Prototyping", "Usability Testing"],
+    category: "Mobile App Design",
+    image: '/project/freelance.jpeg'
+  },
+  {
     title: "Physi Guru Application",
     description:
       "Customized workout routines for different types of body pain and step-by-step exercise instructions. Improve mobility, reduce pain, and promote a healthier lifestyle.",
@@ -17,15 +26,7 @@ const projects = [
     category: "Mobile App Design",
     image: '/project/fizic.jpeg'
   },
-  {
-    title: "Covenant Health Insurance – Web Application (Freelance)",
-    description:
-      "Description: Healthcare insurance platform with streamlined navigation, responsive layouts, and accessible design tailored for patient and provider needs.",
-    role: "User Interface & User Experience",
-    technologies: ["Figma", "Wireframing", "Prototyping", "Usability Testing"],
-    category: "Mobile App Design",
-    image: ''
-  },
+
   {
     title: "New Trend Website",
     description:

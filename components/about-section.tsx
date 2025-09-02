@@ -62,13 +62,13 @@ export function AboutSection() {
                     user-centric digital experiences. I specialize in translating complex requirements into intuitive,
                     engaging interfaces and developing responsive front-end solutions.
                   </p>
-                  <p className="text-muted-foreground leading-relaxed">
+                  <p className="text-muted-foreground leading-relaxed mb-6">
                     My approach combines design thinking with technical expertise to create meaningful digital
                     experiences that not only look great but also solve real user problems.
                   </p>
                 </div>
 
-                <div ref={detailsRef} className="space-x-4 mt-2 md:flex">
+                <div ref={detailsRef} className="space-x-4 mt-5 md:mt-2 md:flex">
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-primary rounded-full pulse-glow"></div>
                     <span className="ml-2 text-sm font-medium"> Phone: 6382323527</span>
