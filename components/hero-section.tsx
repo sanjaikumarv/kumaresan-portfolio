@@ -77,7 +77,7 @@ export function HeroSection() {
 
             {/* Download Resume Button */}
             <Button
-              onClick={() => window.location.href = "https://drive.google.com/file/d/1Ug3-Gd0ZfISc2MQ9na0I8_Bk5mpjTZQS/view?usp=sharing"}
+              onClick={() => window.location.href = "https://drive.google.com/file/d/1C94n1PozQ8JJWz3dSy31N0rVrp-FKtz3/view?usp=sharing"}
               size="lg"
               className="group bg-gradient-to-r hover:cursor-pointer from-primary to-accent hover:from-primary/90 hover:to-accent/90"
             >
