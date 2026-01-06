@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Figma } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const projects = [
   {
@@ -169,10 +170,11 @@ export function ProjectsSection() {
                     <Button
                       variant='ghost'
                       size='icon'
-                      className='opacity-0 group-hover:opacity-100 transition-opacity'>
+                      onClick={() => window.open(project.url, "_blank")}
+                      className='opacity-0 text-white group-hover:opacity-100 transition-opacity'>
                       <ExternalLink
                         href={project.url ? project.url : "#"}
-                        className='w-4 h-4'
+                        className='w-4 h-4 text-white'
                       />
                     </Button>
                   </div>
