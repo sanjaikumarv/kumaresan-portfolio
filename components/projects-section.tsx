@@ -64,6 +64,7 @@ const projects = [
     technologies: ["Adobe PhotoShop"],
     image: "/project/cricket.jpeg",
     category: "Poster",
+    url: "https://drive.google.com/file/d/1AaXZAiDAOtVf-BWSSb5peaSy4Q8UYNsD/view?usp=drivesdk",
   },
   {
     title: "Gatezway",
@@ -73,6 +74,7 @@ const projects = [
     technologies: ["Adobe PhotoShop"],
     image: "/project/gatesway.jpeg",
     category: "Poster",
+    url: "https://drive.google.com/file/d/1XrKlhum2lRBZG4C7W3O16CbCGH5DEvA0/view?usp=drivesdk",
   },
   {
     title: "Career Zone",
@@ -82,6 +84,7 @@ const projects = [
     technologies: ["Adobe PhotoShop"],
     image: "/project/carrier.jpeg",
     category: "Poster",
+    url: "https://drive.google.com/file/d/1TC1o8drHPQMJBdrbuO_1HcOVkqLV-0xp/view?usp=drivesdk",
   },
 ];
 
